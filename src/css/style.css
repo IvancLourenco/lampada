@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-img{
+    display: flex;
+    height: 500px;
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-img .lampada{
+    width: 100%;
+}
+
+.botoes button{
+    width: 90px;
+    height: 40px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.botoes .ligar:hover{
+    background-color: rgb(4, 182, 99);
+    color: white;
+    width: 90px;
+    height: 40px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.botoes .desligar:hover{
+    background-color: red;
+    color: white;
+    width: 90px;
+    height: 40px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
